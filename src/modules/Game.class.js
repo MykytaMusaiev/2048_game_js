@@ -1,4 +1,3 @@
-'use strict';
 
 export default class Game {
   static WINNING_TILE = 2048;
@@ -51,14 +50,16 @@ export default class Game {
     for (let i = 0; i < this.size; i++) {
       for (let j = 0; j < this.size; j++) {
         if (this._board[i][j] === 0) {
-          emptyCells.push({ row: i, col: j });
+          emptyCells.push({
+            row: i, col: j,
+          });
         }
       }
     }
 
     if (emptyCells.length > 0) {
-      const randomCell =
-        emptyCells[Math.floor(Math.random() * emptyCells.length)];
+      const randomCell
+        = emptyCells[Math.floor(Math.random() * emptyCells.length)];
 
       this._board[randomCell.row][randomCell.col] = Math.random() < 0.9 ? 2 : 4;
     }

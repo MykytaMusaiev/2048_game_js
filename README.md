@@ -1,5 +1,12 @@
 # 🕹️ 2048 Game Clone
 
+# 🕹️ 2048 Game Clone
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Open_Game-34A853?style=for-the-badge)](https://mykytamusaiev.github.io/js_2048_game/)
+
+A minimalist, vanilla JavaScript implementation of the classic 2048 puzzle game.
+...
+
 **A minimalist, vanilla JavaScript implementation of the classic 2048 puzzle game.**
 
 This project is a version of the popular 2048 game, built exclusively with core web technologies.
