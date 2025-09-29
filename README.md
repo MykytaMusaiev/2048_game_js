@@ -1,6 +1,4 @@
-# 🕹️ 2048 Game Clone
-
-# 🕹️ 2048 Game Clone
+# 🕹️ 2048 Game
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Open_Game-34A853?style=for-the-badge)](https://mykytamusaiev.github.io/js_2048_game/)
 
